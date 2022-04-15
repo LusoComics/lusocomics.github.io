@@ -1,0 +1,202 @@
+@media screen and (min-width: 1366px) {
+    @font-face {
+        font-family: Bebas Neue;
+        src: url("../FONTS/BebasNeue-Regular.ttf");
+    }
+    @font-face {
+        font-family: Helvetica;
+        src: url("../FONTS/HELVETICANEUE-BOLD.tt");
+    }
+    @font-face {
+        font-family: Toryu;
+        src: url("/FONTS/A_KsoTouryu.otf");
+    }
+    .mainbody {
+        background: rgba(0, 0, 0, 0.1) url("../content/image/SiteBG.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-blend-mode: darken;
+        background-attachment: fixed;
+        height: 100%;
+        object-fit: cover;
+    }
+    .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+    }
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    .row {
+        display: flex;
+        position: sticky;
+        width: 90vh;
+        height: 90vh;
+        object-fit: cover;
+        margin-right: 20%;
+        margin-left: 24%;
+        margin-bottom: 50px;
+        padding: 0px, 0px, 0px, 0px;
+    }
+    .C1,
+    .C2 {
+        background-color: transparent;
+        border: none;
+        padding: 0px, 0px, 0px, 0px;
+        position: relative;
+        top: 400px;
+        width: max-content;
+        height: 90px;
+        margin: 0px 0px 0px -75px;
+        letter-spacing: 0.0em;
+        color: white;
+        font-weight: normal;
+        font-style: normal;
+        font-family: Toryu;
+        font-size: 45px;
+    }
+    h1 {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .C1:hover,
+    .C2:hover {}
+    .cap1 {
+        color: white;
+        position: absolute;
+        top: 365px;
+        left: auto;
+        font-size: 35px;
+        font-family: Helvetica;
+    }
+    .cap2 {
+        color: white;
+        position: absolute;
+        top: 365px;
+        right: auto;
+        font-size: 35px;
+        font-family: Helvetica;
+    }
+    .footer {
+        font-family: Arial;
+        color: white;
+        position: absolute;
+        bottom: 20px;
+        font-size: 15px;
+        left: 0;
+        width: 100vw;
+        text-align: center;
+        object-fit: cover;
+    }
+    Header {
+        float: right;
+        margin-left: 90%;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    @font-face {
+        font-family: Bebas Neue;
+        src: url("../FONTS/BebasNeue-Regular.ttf");
+    }
+    @font-face {
+        font-family: Helvetica;
+        src: url("../FONTS/HELVETICANEUE-BOLD.tt");
+    }
+    @font-face {
+        font-family: Toryu;
+        src: url("/FONTS/A_KsoTouryu.otf");
+    }
+    .mainbody {
+        background: rgba(0, 0, 0, 0.1) url("../content/image/SiteBG.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-blend-mode: darken;
+        background-attachment: fixed;
+        width: 100%;
+        object-fit: cover;
+    }
+    .Title {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .column {
+        float: center;
+        width: 100%;
+        padding: 5px;
+    }
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    .row {}
+    .C1 {
+        background-color: transparent;
+        border: none;
+        color: white;
+        font-weight: normal;
+        font-style: normal;
+        font-family: Toryu;
+        font-size: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+        display: inline-block;
+        width: 100%;
+    }
+    .C2 {
+        background-color: transparent;
+        border: none;
+        color: white;
+        font-weight: normal;
+        font-style: normal;
+        font-family: Toryu;
+        font-size: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -5%;
+        display: inline-block;
+        width: 100%;
+    }
+    h1 {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .cap1 {
+        color: white;
+        font-size: 15px;
+        font-family: Helvetica;
+        margin-left: 35%;
+        margin-right: 65%;
+        margin-top: 5%;
+    }
+    .cap2 {
+        color: white;
+        font-size: 15px;
+        font-family: Helvetica;
+        margin-left: 35%;
+        margin-right: 65%;
+    }
+    .footer {
+        font-family: Arial;
+        color: white;
+        position: absolute;
+        font-size: 10px;
+        left: 0;
+        width: 100vw;
+        margin-bottom: 6%;
+        margin-top: 5%;
+        text-align: center;
+        object-fit: cover;
+    }
+    Header {
+        float: right;
+        margin-left: 60%;
+    }
+}

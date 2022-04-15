@@ -1,0 +1,140 @@
+                @media screen and (min-width: 1366px) {
+                    @font-face {
+                        font-family: Lemon;
+                        src: url("/FONTS/LEMONMILK-Regular.otf");
+                    }
+                    @font-face {
+                        font-family: Toryu;
+                        src: url("/FONTS/A_KsoTouryu.otf");
+                    }
+                    body {
+                        background-color: rgba(0, 0, 0, 0.568);
+                        background-image: url("/content/image/SiteBG.png");
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-blend-mode: darken;
+                        background-attachment: fixed;
+                        height: 100vh;
+                        object-fit: cover;
+                    }
+                    h1 {
+                        color: white;
+                        font-family: Toryu;
+                        font-weight: 100;
+                        padding: 50px, 30px;
+                        position: relative;
+                        text-align: left;
+                        margin: 0%;
+                        margin-top: 5%;
+                        display: inline-block;
+                    }
+                    h2 {
+                        color: white;
+                        font-family: Toryu;
+                        position: relative;
+                        text-align: center;
+                        font-size: 60px;
+                        font-weight: 100;
+                        margin: 0;
+                        margin-bottom: 1%;
+                    }
+                    h4 {
+                        color: white;
+                        font-family: Lemon;
+                        position: relative;
+                        text-align: center;
+                        font-size: 17px;
+                        font-weight: lighter;
+                        display: inline-block;
+                        width: 100%;
+                        margin: 0;
+                    }
+                    .back {
+                        background-color: transparent;
+                        border: none;
+                    }
+                    .pages {
+                        border: 3px;
+                        border-style: outset;
+                        border-color: rgb(255, 255, 255);
+                        border-width: auto;
+                        padding: 5px;
+                        margin-bottom: 0;
+                    }
+                    .footer {
+                        color: white;
+                        text-align: center;
+                        font-family: Lemon;
+                        font-weight: lighter;
+                    }
+                }
+                
+                @media screen and (max-width: 1366px) {
+                    @font-face {
+                        font-family: Lemon;
+                        src: url("/FONTS/LEMONMILK-Regular.otf");
+                    }
+                    @font-face {
+                        font-family: Toryu;
+                        src: url("/FONTS/A_KsoTouryu.otf");
+                    }
+                    body {
+                        background-color: rgb(0, 0, 0);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-blend-mode: darken;
+                        background-attachment: fixed;
+                        height: 100vh;
+                        object-fit: cover;
+                    }
+                    h1 {
+                        color: white;
+                        font-family: Toryu;
+                        font-weight: 100;
+                        padding: 50px, 30px;
+                        position: relative;
+                    }
+                    h2 {
+                        color: white;
+                        font-family: Toryu;
+                        position: relative;
+                        text-align: center;
+                        margin-top: -400px;
+                        font-size: 40px;
+                        font-weight: 100;
+                        display: inline-block;
+                        width: 100%;
+                        margin-top: 2%;
+                        margin-bottom: 1%;
+                    }
+                    h4 {
+                        color: white;
+                        font-family: Lemon;
+                        position: relative;
+                        text-align: center;
+                        font-size: 14px;
+                        font-weight: lighter;
+                        display: inline-block;
+                        width: 100%;
+                        margin: 0;
+                    }
+                    .back {
+                        background-color: transparent;
+                        border: none;
+                        opacity: 0;
+                        display: none;
+                    }
+                    .pages {
+                        width: 100%;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                    /*
+                    .footer {
+                        color: white;
+                        text-align: center;
+                        font-family: Lemon;
+                        font-weight: lighter;
+                    }
+                    */
+                }
