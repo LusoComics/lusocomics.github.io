@@ -4,62 +4,131 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Hagane Shoujo Read Online</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" sizes="48x48" href="/content/image/icon.png">
+    <title>Hagane Shoujo Read Online</title>
+    <link rel="icon" type="image/png" sizes="48x48" href="/content/icon.png">
     <!--Browser CSS-->
-    <link rel="stylesheet" href="/CSS/MainPage.css" media="all">
+    <link rel="stylesheet" href="/CSS/style.css" media="all">
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=TRACKING_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'TRACKING_ID');
+    </script>
+    <style>
+        .mobile-display {
+            display: none
+        }
+
+        .desktop-display {
+            display: block
+        }
+
+        @media (max-width:800px) {
+            .desktop-display {
+                display: none
+            }
+
+            .mobile-display {
+                display: block
+            }
+        }
+    </style>
 
 </head>
 
-<header>
-    <a href="https://www.patreon.com/bePatron?u=37473297">
-        <img src="./content/image/patreon_icon.png" width="30%" height="30%">
-    </a>
 
-    <a href="./index.html">
-        <img src="/content/image/ukICON.png" width="30%" height="30%">
-    </a>
-    <a href="./indexpt.html">
-        <img src="/content/image/ptICON.png" width="30%" height="30%">
-    </a>
-</header>
 
-<body class="mainbody ">
+<div class="desktop-display">
 
-    <div class="row " style="max-width:1000px; ">
+    <header>
+        <a href="https://www.instagram.com/katsuragihoujo/" target="_blank">
+            <img src="/content/instagram_icon.png" width="30%" height="30%">
+        </a>
 
-        <div class="column ">
-            <div class="cap1 "><b>Read</b></div>
+        <a href="https://www.patreon.com/bePatron?u=37473297" target="_blank">
+            <img src="/content/patreon_icon.png" width="30%" height="30%">
+        </a>
+    </header>
 
-            <a href="./ch1read.html " target="_blank ">
-                <button class="C1 ">
-                        <h1> Chapter 1 </h1>
-                    </button>
-            </a>
+    <body class="mainbody">
+
+        <div class="row" style="max-width:1000px">
+
+            <!--Chapter 1 Card-->
+            <div class="column">
+                <a href="/ch1.html">
+                    <div class="ch1"></div>
+                </a>
+            </div>
+
+            <!--Chapter 2 Card-->
+            <div class="column">
+                <a href="/ch2.html">
+                    <div class="ch2"></div>
+                </a>
+            </div>
+
+            <!--Chapter 3 Card-->
+            <div class="column">
+                <a href="/soon.html">
+                    <div class="ch3"></div>
+                </a>
+            </div>
+
         </div>
 
-        <!--<div class="Title ">-->
-        <img src="../content/image/SiteTitle.png " width="100% " height="auto " class="Title ">
-        <!--</div>-->
+    </body>
+    <footer class="footer">
+        <p>Copyright© 2023 KATSURAGI HOUJO. All Rights Reserved. No reproduction or republication without written
+            permission.</p>
+    </footer>
+</div>
 
-        <div class="column ">
+<div class="mobile-display">
 
-            <div class="cap2 "><b>Read</b></div>
+    <body class="mainbody">
 
-            <a href="./ch2read.html " target="_blank ">
-                <button class="C2 ">
-                <h1> Chapter 2 </h1>
-                    
-                </button>
-            </a>
+        <div class="column_mobile">
+
+            <!--Chapter 1 Card-->
+            <div class="row_mobile">
+                <a href="/ch1.html">
+                    <img src="/content/mobile_ch1.jpg">
+                </a>
+            </div>
+
+            <!--Chapter 2 Card-->
+            <div class="row_mobile">
+                <a href="/ch2.html">
+                    <img src="/content/mobile_ch2.jpg">
+                </a>
+            </div>
+
+            <!--Chapter 3 Card-->
+            <div class="row_mobile">
+                <a href="/soon.html">
+                    <img src="/content/mobile_ch3.jpg">
+                </a>
+            </div>
+
         </div>
 
+    </body>
 
-    </div>
 
-</body>
 
-<footer class="footer ">
-    <p>Copyright© 2022 KATSURAGI HOUJO. All Rights Reserved. No reproduction or republication without written permission.</p>
-</footer>
+
+
+
+</div>
+
+
+
+
+</html>

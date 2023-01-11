@@ -1,0 +1,114 @@
+@font-face {
+    font-family: Bebas Neue;
+    src: url("../FONTS/BebasNeue-Regular.ttf");
+}
+
+.mainbody {
+    background: rgba(0, 0, 0, 0.1) url("../content/bg2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+    height: 100%;
+    object-fit: cover;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.column_mobile {
+    height: 100%;
+    padding: 2px;
+
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.row {
+    display: flex;
+    position: sticky;
+    width: 90vh;
+    height: 90vh;
+    object-fit: cover;
+    margin-right: 27%;
+    margin-left: 28%;
+    margin-bottom: 0px;
+    padding: 0px, 0px, 0px, 0px;
+}
+
+.row_mobile {
+    display: flex;
+    position: sticky;
+    object-fit: contain;
+    padding: 0px, 0px, 0px, 0px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.footer {
+    font-family: Bebas Neue;
+    color: #dacbbb;
+    position: absolute;
+    bottom: 5px;
+    font-size: 25px;
+    left: 0;
+    width: 100vw;
+    text-align: center;
+    object-fit: cover;
+}
+
+Header {
+    float: right;
+    margin-left: 90%;
+    margin-top: 5px;
+}
+
+.ch1 {
+    background: url("/content/ch1.jpg");
+    width: 90%;
+    height: 90%;
+    background-size: cover;
+    transition: background 0.2s ease-out 100ms
+}
+
+
+.ch1:hover {
+    background: url("/content/ch1in.jpg");
+    background-size: cover;
+}
+
+.ch2 {
+    background: url("/content/ch2.jpg");
+    width: 90%;
+    height: 90%;
+    background-size: cover;
+    transition: background 0.2s ease-out 100ms
+}
+
+
+.ch2:hover {
+    background: url("/content/ch2in.jpg");
+    background-size: cover;
+}
+
+.ch3 {
+    background: url("/content/ch3.jpg");
+    width: 90%;
+    height: 90%;
+    background-size: cover;
+    transition: background 0.2s ease-out 100ms
+}
+
+
+
+.ch3:hover {
+    background: url("/content/ch3in.jpg");
+    background-size: cover;
+}
